@@ -450,7 +450,7 @@ class IndeedScraperUSAEng(BaseIndeedScraper, BaseUSAEngScraper):
 
 
 class IndeedScraperUKEng(BaseIndeedScraper, BaseUKEngScraper):
-    """Scrapes jobs from www.indeed.co.uk"""
+    """Scrapes jobs from uk.indeed.com"""
 
     def _get_search_url(self, method: Optional[str] = "get") -> str:
         """Get the indeed search url from SearchTerms
